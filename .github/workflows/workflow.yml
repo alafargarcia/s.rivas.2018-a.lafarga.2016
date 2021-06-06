@@ -2,7 +2,7 @@ name: workflow1
 
 on: 
   push:
-    branches: [workflowsdev]
+    branches: [feature/feature-1]
 
 jobs:
 
