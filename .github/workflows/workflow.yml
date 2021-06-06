@@ -1,8 +1,8 @@
 name: workflow1
 
 on: 
-  push:
-    branches: [feature/feature-1]
+  pull_request:
+    branches: [workflowsdev]
 
 jobs:
 
