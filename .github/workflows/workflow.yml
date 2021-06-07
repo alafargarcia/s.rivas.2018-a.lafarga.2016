@@ -20,4 +20,4 @@ jobs:
           java-version: 11
         
       - name: Tests unitarios
-        run: mvn -B '-Dtest=es.urjc.code.daw.library.unitary.BookServiceUnitaryTest' test 
+        run: mvn -B '-Dtest=es.urjc.code.daw.library.unitary.BookServiceUnitaryTest' test
