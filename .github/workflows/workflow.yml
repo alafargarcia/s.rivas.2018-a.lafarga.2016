@@ -2,7 +2,8 @@ name: workflow1
 
 on: 
   pull_request:
-    branches: [workflowsdev]
+    branches:
+      - worflowsdev
 
 jobs:
 
